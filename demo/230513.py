@@ -1,7 +1,16 @@
 import random
-for i in range(6):
+
+number = []
+
+i = 0
+while i < 6:
     x = random.randint(1,49)
-    print(x, end = " ")
+    if x not in number:
+        number.append(x)
+        i += 1
+sorted(number)
+print(number, end = " ")
+
 
 y= random.randint(1,49)
 print(f'特別號為{y}')
