@@ -1,4 +1,8 @@
-x= 10
-y= 20
-z = x + y
-print(z)
+import random
+for i in range(6):
+    x = random.randint(1,49)
+    print(x, end = " ")
+
+y= random.randint(1,49)
+print(f'特別號為{y}')
+
